@@ -9,9 +9,15 @@
   </head>
   <body>
     <form class="search-form" id="search-form">
-      <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
-      <button type="submit">Search</button>
+      <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." required />
+      <button type="submit" class="search-btn js-search-btn">Search</button>
     </form>
+    <div class="gallery">
+      <!-- Карточки изображений -->
+    </div>
+    <button type="button" class="load-more js-load-more is-hidden">
+      Load more
+    </button>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
