@@ -1,13 +1,3 @@
-/*
-webformatURL - ссылка на маленькое изображение для списка карточек.
-largeImageURL - ссылка на большое изображение.
-tags - строка с описанием изображения. Подойдет для атрибута alt.
-likes - количество лайков.
-views - количество просмотров.
-comments - количество комментариев.
-downloads - количество загрузок.
-*/
-
 export const createGalleryCards = cardInfo => {
   const galleryCardsArr = cardInfo.map(el => {
     return `
