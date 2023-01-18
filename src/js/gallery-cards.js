@@ -13,7 +13,7 @@ export const createGalleryCards = cardInfo => {
     return `
       <div class="photo-card">
         <a class="gallery__item" href="${el.largeImageURL}">
-          <img src="${el.webformatURL}" alt="${el.tags}" loading="lazy" />
+          <img class = "photo" src="${el.webformatURL}" alt="${el.tags}" loading="lazy" />
         </a>
         <div class="info">
           <p class="info-item">
